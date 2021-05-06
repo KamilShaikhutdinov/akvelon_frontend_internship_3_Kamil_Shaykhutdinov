@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #eee;
+}
+
+.Myform {
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 10% auto;
+  box-shadow: 2px 2px 4px 0px #000000;
+  text-align: center;
+}
+.Myform h1 {
+  margin: 0;
+  color: #7dc0ff;
+  border-radius: 10px 10px 0 0;
+  text-decoration: solid;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.form_inner {
+  padding: 20px;
+}
+.log {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dcdcdc;
+  padding: 12px 10px;
+  width: 220px;
+  border-radius: 5px 5px 0 0;
+}
+.pass {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 1px solid #dcdcdc;
+  padding: 12px 10px;
+  width: 220px;
+  border-radius: 0px 0px 5px 5px;
+}
+.btn {
+  background: #7dc0ff;
+  border-radius: 5px;
+  color: #fff;
+
+  font-weight: bold;
+  margin: 10px;
+  padding: 12px 20px;
+}
+input:invalid:not(:placeholder-shown) {
+    border-color: rgb(204, 60, 60);
+}
+input:valid:not(:placeholder-shown) {
+    border-color: rgb(39, 126, 39);
+}

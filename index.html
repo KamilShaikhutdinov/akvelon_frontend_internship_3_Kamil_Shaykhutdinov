@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task №2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="Myform">
+      <h1>Register</h1>
+      <div class="form_inner">
+        <form name="registration" id="form">
+          <div>Full Name:</div>
+          <input
+            placeholder=" "
+            class="log"
+            type="text"
+            autofocus
+            required
+            pattern="^[a-zA-Z\s]{1,120}$"
+            name="login"
+            id="login"
+          />
+          <div>E-mail:</div>
+          <input
+            class="log"
+            type="email"
+            required
+            name="email"
+            placeholder=" "
+          />
+          <div>Password:</div>
+          <input
+            placeholder=" "
+            minlength="8"
+            class="pass"
+            type="password"
+            required
+            name="password"
+          />
+
+          <div class="button_container">
+            <input class="btn" type="submit" value="Sign Up" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
